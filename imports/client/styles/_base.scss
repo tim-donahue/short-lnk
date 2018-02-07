@@ -1,0 +1,38 @@
+// Basic reset
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $base-font-size;
+}
+
+a {
+  color: black;
+}
+
+h1 {
+  font-weight: 400;
+  margin-bottom: $space;
+}
+h2 {
+  font-size: $large-font-size;
+  margin-bottom: $space;
+}
+
+input[type=text], input[type=email], input[type=password] {
+  font-size: $base-font-size;
+  margin-bottom: $space;
+  padding: $input-spacing;
+  border: 1px solid $input-border;
+}
+
+p {
+  margin-bottom: $space;
+}
